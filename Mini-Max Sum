@@ -22,3 +22,14 @@ Print two space-separated integers on one line: the minimum sum and the maximum 
 *************************************************************
 Solution:
 
+def miniMaxSum(arr):
+    n=len(arr)
+    max1=max(arr)
+    min1=min(arr)
+    sum1=sum(arr)
+    print(sum1-max1,sum(arr)-min1) 
+
+if __name__ == '__main__':
+    arr = list(map(int, input().rstrip().split()))
+ 
+miniMaxSum(arr)
