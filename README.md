@@ -1,1 +1,1 @@
-# Hackerrank-problem-solving-python
+# Hackerrank-problem-solving-python-solution
