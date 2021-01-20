@@ -1,0 +1,52 @@
+Nice tutorial on https://www.programiz.com/python-programming/datetime/strftime
+
+
+
+import datetime
+now = datetime.datetime.now()
+#print(now)
+print(now.strftime("%B")) 
+#Result - January
+
+print(now.strftime("%Y"))
+res- 2021 
+print(now.strftime("%y")) 
+res- 21
+
+
+Example 1: datetime to string using strftime()
+
+import datetime
+now = datetime.datetime.now()
+#print(now)
+print(now.strftime("%M"))
+print(now.strftime("%m"))
+print(now.strftime("%D"))
+print(now.strftime("%d"))
+
+print("#####################")
+print(now.strftime("%H: %M: %S"))
+print(now.strftime("%hh: %mm: %ss"))
+print(now.strftime("%h: %m: %s"))
+
+print("*****************")
+print(now.strftime("%m%d%y %H:%M:%S"))
+
+#print(x.year)
+#print(x.strftime("%A"))
+
+
+Output: 
+32
+01
+01/20/21
+20
+#####################
+08: 32: 39
+Janh: 01m: 1611131559s
+Jan: 01: 1611131559
+*****************
+012021 08:32:39
+
+
+Example 2: Creating string from a timestamp
