@@ -25,3 +25,13 @@ if __name__ == '__main__':
     arr = list(map(int, input().split()))
     result = average(arr)
     print(result)
+
+    arr=set([12,2,2,3,5,6,7,8,9])
+
+ **********************    Learning **********************
+I tried using for loop with i index , it didn't worked bcos we cant iterate set
+for item in arr:
+    print(item)
+
+my_set = set([1, 2, 3, 2])
+print(my_set)
