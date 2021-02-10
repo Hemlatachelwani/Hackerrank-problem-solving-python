@@ -136,4 +136,28 @@ def main():
     
 if __name__ ==  '__main__':
     main()
- 
+ ######################################
+Final code which got submitted :
+ # Enter your code here. Read input from STDIN. Print output to STDOUT
+
+import collections
+#from collections import OrderedSet
+def arrays(m,marr,n,narr):
+    arr=marr.union(narr).difference(marr.intersection(narr))
+    return(arr)
+
+def main():
+    m=int(input())
+    marr = set(map(int,input().strip().split(' ')))
+    n=int(input())
+    narr = set(map(int,input().strip().split(' ')))
+    
+    result = arrays(m,marr,n,narr)
+    #print(type(result))
+    #print(result)
+    for i in sorted(result):
+      print(i)
+    
+if __name__ ==  '__main__':
+    main()
+    
