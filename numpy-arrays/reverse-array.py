@@ -54,3 +54,20 @@ def arrays(arr):
 arr = input().strip().split(' ')
 result = arrays(arr)
 print(result)
+
+###################################
+The solution which got accepted and I got the points.
+import numpy
+
+def arrays(arr):
+    # complete this function
+    # use numpy.array
+    #print("[",end="")
+    #for item in arr[::-1]:
+    #    print("{}.  ".format(item),end="")
+    #print("  ]",end="")
+    return(numpy.array(arr[::-1],float))
+
+arr = input().strip().split(' ')
+result = arrays(arr)
+print(result)
