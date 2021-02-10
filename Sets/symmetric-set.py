@@ -137,7 +137,7 @@ def main():
 if __name__ ==  '__main__':
     main()
  ######################################
-Final code which got submitted :
+Final code which got submitted : Output was coming right but it was coming like 9 11 12 5 , but ut had ot be 5 9 11 12, so for that sorted function on top of set has been applied. 
  # Enter your code here. Read input from STDIN. Print output to STDOUT
 
 import collections
