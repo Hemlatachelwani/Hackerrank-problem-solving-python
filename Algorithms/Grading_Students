@@ -71,7 +71,7 @@ import sys
 def gradingStudents(grades):
     # Write your code here
     for i in range(0,len(grades)-1):
-    #   if grades[i]<=38:  
+      if grades[i]>=38:  
         if((grades[i]+1)%5==0):
             grades[i]+=1
             print(grades[i])
